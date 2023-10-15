@@ -1,8 +1,8 @@
 from tkinter import *
 from tkinter import ttk
 
-from chat_app.discussion_list import DiscussionList
-from chat_app.messages import Messages
+from Chat_app.chat_app.discussion_list import DiscussionList
+from Chat_app.chat_app.messages import Messages
 
 
 class MainWindow:
@@ -10,7 +10,6 @@ class MainWindow:
         self.root = root
         self.discussion_frame = None
         self.discussion_list = None
-
         self.messages_frame = None
         self.messages_part = None
 
